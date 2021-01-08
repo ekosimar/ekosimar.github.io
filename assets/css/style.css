@@ -3,6 +3,27 @@ body, html, .header {
     margin: 0;
 }
 
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  position: fixed;
+  top: 45%;
+  padding-right: 30px;
+  bottom: 0px;
+  align-items: center;
+  right:0px;
+}
+
+.nav-bar > .f-1 > img {
+  width: 30px;
+  height: 30px;
+}
+
+.f-1 {
+  flex: 1;
+}
+
 .header {
     display: -webkit-flexbox;
     display: -ms-flexbox;
@@ -18,7 +39,7 @@ h1 {
     margin-left: 3%;
     font-family: CourierNewPSMT;
     font-size: 3vw;
-    color: #717171;
+    color: #F7FFF7;
     letter-spacing: 0;
     line-height: auto;
 }
@@ -31,9 +52,9 @@ p {
     line-height: 50px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xrotate-1 
+xrotate-1
 
 -------------------------------- */
 .cd-headline.rotate-1 .cd-words-wrapper {
@@ -75,7 +96,7 @@ xrotate-1
     -moz-animation: cd-rotate-1-out 1.2s;
     animation: cd-rotate-1-out 1.2s;
   }
-  
+
   @-webkit-keyframes cd-rotate-1-in {
     0% {
       -webkit-transform: rotateX(180deg);
@@ -224,4 +245,3 @@ xrotate-1
   .no-js .cd-words-wrapper b.is-visible {
     opacity: 1;
   }
-
