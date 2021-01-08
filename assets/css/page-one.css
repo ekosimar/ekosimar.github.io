@@ -1,0 +1,22 @@
+.page-one {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+
+}
+
+.page-one > .left-box {
+  position: absolute;
+}
+
+.page-one > .right-box {
+ height: 100%;
+ flex: 1;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.page-one > .right-box > img {
+  image-resolution: 
+}
